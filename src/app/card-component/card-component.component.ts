@@ -3833,6 +3833,7 @@ export class CardComponentComponent implements OnInit {
       chart.title('Create a Bar chart');
       chart.container('container');
       chart.draw();
+      chart.xAxis().scale().ticks().interval(1);
     });
   }
 }
