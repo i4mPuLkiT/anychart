@@ -5723,9 +5723,6 @@ export class CardComponentComponent implements OnInit {
       var noDataLabel = chart.noData().label();
       noDataLabel.enabled(true);
       noDataLabel.text('no data');
-      var categoryWidth = 40;
-      const offset = 50;
-      var chartHeight = categoryWidth * data.length + offset;
       chart.yScale().minimum(0);
       chart.yScale().maximum(110);
       chart.padding([10, 40, 5, 20]);
