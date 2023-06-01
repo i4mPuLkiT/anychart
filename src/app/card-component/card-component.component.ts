@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewEncapsulation, Input } from '@angular/core';
 import 'bootstrap';
 import 'jquery';
-import anychart from 'anychart';
+import 'anychart';
 
 @Component({
   selector: 'app-card-component',
